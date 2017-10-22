@@ -2,7 +2,7 @@
   {
     "model_type": "indexer",
     "name": "sphereface",
-    "url": "https://www.dropbox.com/s/x27ye1v9l3ivn0h/sphereface_model.caffemodel",
+    "url": "http://192.168.0.107/~apacvideo/sphereface_model.caffemodel",
     "filename": "sphereface_model.caffemodel",
     "shasum": "8a801f716fc2d23275d3ed7215f7732c5af385e7",
     "mode": "C"
@@ -10,7 +10,7 @@
   {
     "model_type": "indexer",
     "name": "vgg",
-    "url": "https://www.dropbox.com/s/3yzonc9nzo9xanv/vgg.pb",
+    "url": "http://192.168.0.107/~apacvideo/vgg.pb",
     "filename": "vgg.pb",
     "shasum": "52723231e796dd06fafd190957c8a3b5a69e009c",
     "mode": "T"
