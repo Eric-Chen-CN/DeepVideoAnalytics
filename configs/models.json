@@ -3,7 +3,7 @@
     "model_type": "detector",
     "name": "coco",
     "detector_type": "T",
-    "url": "https://www.dropbox.com/s/nzz26b2p4wxygg3/coco_mobilenet.pb",
+    "url": "http://192.168.0.107/~apacvideo/coco_mobilenet.pb",
     "filename": "coco_mobilenet.pb",
     "algorithm": "mobilenet_ssd",
     "mode": "T",
@@ -93,10 +93,10 @@
   {
     "model_type": "detector",
     "name": "textbox",
-    "url": "https://www.dropbox.com/s/yyj53aet2emhvs7/ctpn_trained_model.caffemodel",
+    "url": "http://192.168.0.107/~apacvideo/ctpn_trained_model.caffemodel",
     "filename": "ctpn_trained_model.caffemodel",
     "additional_files":[
-      {"url": "https://www.dropbox.com/s/1fcgzui32wrtlvd/ctpn_trained_model.prototxt",
+      {"url": "http://192.168.0.107/~apacvideo/ctpn_trained_model.prototxt",
       "filename": "ctpn_trained_model.prototxt"}
     ],
     "algorithm": "CTPN",
@@ -113,7 +113,7 @@
   {
     "model_type": "indexer",
     "name": "inception",
-    "url": "https://www.dropbox.com/s/fc7li2vwn8lvsyu/network.pb",
+    "url": "http://192.168.0.107/~apacvideo/network.pb",
     "filename": "network.pb",
     "shasum": "48b026cf77dfbd5d9841cca3ee550ef0ee5a0751",
     "mode": "T"
@@ -121,7 +121,7 @@
   {
     "model_type": "indexer",
     "name": "facenet",
-    "url": "https://www.dropbox.com/s/jytpgw8et09ede9/facenet.pb",
+    "url": "http://192.168.0.107/~apacvideo/facenet.pb",
     "filename": "facenet.pb",
     "shasum": "9f99caccbc75dcee8cb0a55a0551d7c5cb8a6836",
     "mode": "T"
@@ -129,19 +129,19 @@
   {
     "model_type": "analyzer",
     "name": "crnn",
-    "url": "https://www.dropbox.com/s/l0vo83hmvv2aipn/crnn.pth",
+    "url": "http://192.168.0.107/~apacvideo/crnn.pth",
     "filename": "crnn.pth",
     "mode": "P"
   },
   {
     "model_type": "analyzer",
     "name": "tagger",
-    "url": "https://www.dropbox.com/s/umo0xtljm9an90x/open_images.ckpt",
+    "url": "http://192.168.0.107/~apacvideo/open_images.ckpt",
     "filename": "open_images.ckpt",
     "additional_files":[
-      {"url": "https://www.dropbox.com/s/f93axdtlb3ltj40/open_images.ckpt.meta", "filename": "open_images.ckpt.meta"},
-      {"url": "https://www.dropbox.com/s/2sd5nzpyhsj10w5/open_images_labelmap.txt", "filename": "open_images_labelmap.txt"},
-      {"url": "https://www.dropbox.com/s/yboqv4leem6oy01/open_images_dict.csv", "filename": "open_images_dict.csv"}
+      {"url": "http://192.168.0.107/~apacvideo/open_images.ckpt.meta", "filename": "open_images.ckpt.meta"},
+      {"url": "http://192.168.0.107/~apacvideo/open_images_labelmap.txt", "filename": "open_images_labelmap.txt"},
+      {"url": "http://192.168.0.107/~apacvideo/open_images_dict.csv", "filename": "open_images_dict.csv"}
     ],
     "mode": "T"
   }
